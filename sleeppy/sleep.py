@@ -119,7 +119,7 @@ class SleepPy:
         self.window_size = 60  # define window size in seconds
         self.band_pass_cutoff = (
             0.25,
-            12.0,
+            5.0,
         )  # define the cutoffs for the band pass filter
         self.major_rest_periods = []  # initialize a list to save the major rest periods
         self.start_buffer = start_buffer
